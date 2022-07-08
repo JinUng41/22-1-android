@@ -1,0 +1,14 @@
+<resources>
+
+    <string-array name="size_entries">
+        <item>small</item>
+        <item>medium</item>
+        <item>big</item>
+    </string-array>
+
+    <string-array name="size_values">
+        <item>small</item>
+        <item>medium</item>
+        <item>big</item>
+    </string-array>
+</resources>

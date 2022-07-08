@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:defaultValue="false"
+        app:defaultValue="false"
+        app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:defaultValue="Hello World!"
+            app:key="name"
+            app:title="Name"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="small"
+            app:entries="@array/size_entries"
+            app:entryValues="@array/size_values"
+            app:key="size"
+            app:title="Size"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="sync"
+            app:title="Italic" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
